@@ -4,15 +4,18 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
-    android:background="#03A9F4">
+    android:background="#ffffff">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="start"
         android:id="@+id/btn_start"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignBottom="@+id/linearLayout5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/linearLayout5"
+        android:layout_alignEnd="@+id/linearLayout5" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -36,7 +39,7 @@
                 android:textSize="35dp"
                 android:fontFamily="sans-serif-light"
                 android:layout_centerHorizontal="true"
-                android:textColor="#ffffff"/>
+                android:textColor="#010101"/>
         </RelativeLayout>
     </LinearLayout>
 
@@ -53,12 +56,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" >
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/score_long"
-                android:id="@+id/textView"
-                android:layout_centerHorizontal="true" />
         </RelativeLayout>
     </LinearLayout>
 
@@ -69,28 +66,27 @@
         android:layout_above="@+id/linearLayout2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="53dp">
+        android:layout_marginBottom="53dp"
+        android:id="@+id/linearLayout5">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Survey"
-                android:id="@+id/btn_test_activity"
-                android:layout_below="@+id/textView2"
-                android:layout_centerHorizontal="true" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView2"
-                android:layout_alignParentLeft="false"
-                android:text="@string/help_us"
-                android:layout_centerHorizontal="true" />
-        </RelativeLayout>
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_long"
+        android:id="@+id/textView"
+        android:textColor="#010101"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/main"
+        android:layout_above="@+id/btn_start"
+        android:layout_below="@+id/linearLayout" />
 
 </RelativeLayout>

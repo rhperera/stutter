@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         thread.setPriority(Thread.MAX_PRIORITY);
 
         final Button btn =(Button)findViewById(R.id.btn_start);
-        final Button testBtn = (Button)findViewById(R.id.btn_test_activity);
+        //final Button testBtn = (Button)findViewById(R.id.btn_test_activity);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,13 +61,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        testBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,TestDataActivity.class);
-                startActivity(intent);
-            }
-        });
+//        testBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this,TestDataActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
 
 
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             buffersizeString = audioManager.getProperty(AudioManager.PROPERTY_OUTPUT_FRAMES_PER_BUFFER);
         }
         samplerateString= "48000";
-        buffersizeString = "256";
+        buffersizeString = "128";
 
         System.loadLibrary("FrequencyDomain");
         FrequencyDomain(Integer.parseInt(samplerateString), Integer.parseInt(buffersizeString));
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
     public class DAF implements Runnable{
 
         public DAF(){
-            // android.os.Process.setThreadPriority(android.os.Process.THREAD_PRIORITY_URGENT_AUDIO);
+             android.os.Process.setThreadPriority(android.os.Process.THREAD_PRIORITY_URGENT_AUDIO);
         }
 
         @Override

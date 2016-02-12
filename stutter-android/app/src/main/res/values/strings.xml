@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Stutter Aid v2.0</string>
+    <string name="app_name">Stutter Aid</string>
     <string name="score">SCoRe</string>
     <string name="score_long">Sustainable Computing Research Group</string>
     <string name="hello_world">Hello world!</string>
