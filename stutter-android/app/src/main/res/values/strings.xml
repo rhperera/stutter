@@ -7,4 +7,5 @@
     <string name="title_activity_test_data">TestDataActivity</string>
     <string name="help_us">Help us improve by uploading your recordings</string>
     <string name="title_activity_gplus_login">GPlusLogin</string>
+    <string name="title_activity_latency_test">LatencyTestActivity</string>
 </resources>

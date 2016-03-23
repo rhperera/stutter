@@ -7,7 +7,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.USE_CREDENTIALS" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:allowBackup="true"
@@ -26,6 +26,10 @@
         <activity
             android:name=".TestDataActivity"
             android:label="@string/title_activity_test_data" >
+        </activity>
+        <activity
+            android:name=".LatencyTestActivity"
+            android:label="@string/title_activity_latency_test" >
         </activity>
     </application>
 

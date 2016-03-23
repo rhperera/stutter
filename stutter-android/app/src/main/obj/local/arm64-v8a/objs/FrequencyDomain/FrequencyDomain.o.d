@@ -29,7 +29,10 @@ I:/STUTTER/stutter/stutter-android/app/src/main/obj/local/arm64-v8a/objs/Frequen
   Superpowered\SuperpoweredFrequencyDomain.h \
   Superpowered/SuperpoweredAudioBuffers.h \
   Superpowered\SuperpoweredAndroidAudioIO.h \
-  Superpowered\SuperpoweredSimple.h
+  Superpowered\SuperpoweredSimple.h \
+  E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\SLES/OpenSLES.h \
+  E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\SLES/OpenSLES_Platform.h \
+  E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\SLES/OpenSLES_AndroidConfiguration.h
 
 E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\jni.h:
 
@@ -90,3 +93,9 @@ Superpowered/SuperpoweredAudioBuffers.h:
 Superpowered\SuperpoweredAndroidAudioIO.h:
 
 Superpowered\SuperpoweredSimple.h:
+
+E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\SLES/OpenSLES.h:
+
+E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\SLES/OpenSLES_Platform.h:
+
+E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\SLES/OpenSLES_AndroidConfiguration.h:

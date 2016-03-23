@@ -56,7 +56,11 @@ I:/STUTTER/stutter/stutter-android/app/src/main/obj/local/arm64-v8a/objs/Frequen
   E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\unistd.h \
   E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\sys/select.h \
   E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\sys/sysconf.h \
-  E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\pathconf.h
+  E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\pathconf.h \
+  E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\sys/resource.h \
+  E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\linux/resource.h \
+  E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\asm/resource.h \
+  E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\asm-generic/resource.h
 
 Superpowered/SuperpoweredAndroidAudioIO.h:
 
@@ -171,3 +175,11 @@ E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\sys/select.h:
 E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\sys/sysconf.h:
 
 E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\pathconf.h:
+
+E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\sys/resource.h:
+
+E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\linux/resource.h:
+
+E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\asm/resource.h:
+
+E:/Android/android-ndk/platforms/android-21/arch-arm64/usr/include\asm-generic/resource.h:

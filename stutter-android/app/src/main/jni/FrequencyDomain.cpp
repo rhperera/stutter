@@ -3,6 +3,8 @@
 #include "SuperpoweredFrequencyDomain.h"
 #include "SuperpoweredAndroidAudioIO.h"
 #include "SuperpoweredSimple.h"
+#include <SLES/OpenSLES.h>
+#include <SLES/OpenSLES_AndroidConfiguration.h>
 
 static SuperpoweredAndroidAudioIO *audioIO;
 static SuperpoweredFrequencyDomain *frequencyDomain;
@@ -19,10 +21,9 @@ static bool audioProcessing(void *clientdata, short int *audioInputOutput, int n
     // In the frequency domain we are working with 1024 magnitudes and phases for every channel (left, right), if the fft size is 2048.
     while (frequencyDomain->timeDomainToFrequencyDomain(magnitudeLeft, magnitudeRight, phaseLeft, phaseRight)) {
         // You can work with frequency domain data from this point.
-
         // This is just a quick example: we remove the magnitude of the first 20 bins, meaning total bass cut between 0-430 Hz.
         memset(magnitudeLeft, 0, 80);
-        memset(magnitudeRight, 0, 80);
+        memset(magnitudeRight,0,80);
 
         // We are done working with frequency domain data. Let's go back to the time domain.
 
@@ -69,7 +70,8 @@ JNIEXPORT void Java_com_scorelab_stutteraid_MainActivity_FrequencyDomain(JNIEnv 
     fifoOutput = (float *)malloc(fifoCapacity * sizeof(float) * 2 + 128);
 
     inputBufferFloat = (float *)malloc(buffersize * sizeof(float) * 2 + 128);
-    audioIO = new SuperpoweredAndroidAudioIO(samplerate, buffersize, true, true, audioProcessing, NULL, buffersize*2); // Start audio input/output.
+    //audioIO = new SuperpoweredAndroidAudioIO(samplerate, buffersize, true, true, audioProcessing, NULL, buffersize*2); // Start audio input/output.
+    audioIO = new SuperpoweredAndroidAudioIO(samplerate, buffersize, true, true, audioProcessing, NULL, -1, SL_ANDROID_STREAM_MEDIA, buffersize * 2);
 
 }
 

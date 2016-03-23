@@ -5,6 +5,7 @@ I:/STUTTER/stutter/stutter-android/app/src/main/obj/local/armeabi-v7a/objs/Frequ
   E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\SLES/OpenSLES.h \
   E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\SLES/OpenSLES_Platform.h \
   E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\SLES/OpenSLES_Android.h \
+  E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\SLES/OpenSLES_AndroidConfiguration.h \
   E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\pthread.h \
   E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\time.h \
   E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\sys/cdefs.h \
@@ -46,7 +47,11 @@ I:/STUTTER/stutter/stutter-android/app/src/main/obj/local/armeabi-v7a/objs/Frequ
   E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\sys/select.h \
   E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\sys/sysconf.h \
   E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\linux/capability.h \
-  E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\pathconf.h
+  E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\pathconf.h \
+  E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\sys/resource.h \
+  E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\linux/resource.h \
+  E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\asm/resource.h \
+  E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\asm-generic/resource.h
 
 Superpowered/SuperpoweredAndroidAudioIO.h:
 
@@ -57,6 +62,8 @@ E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\SLES/OpenSLES.h:
 E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\SLES/OpenSLES_Platform.h:
 
 E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\SLES/OpenSLES_Android.h:
+
+E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\SLES/OpenSLES_AndroidConfiguration.h:
 
 E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\pthread.h:
 
@@ -141,3 +148,11 @@ E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\sys/sysconf.h:
 E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\linux/capability.h:
 
 E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\pathconf.h:
+
+E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\sys/resource.h:
+
+E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\linux/resource.h:
+
+E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\asm/resource.h:
+
+E:/Android/android-ndk/platforms/android-9/arch-arm/usr/include\asm-generic/resource.h:
